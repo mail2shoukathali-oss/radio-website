@@ -88,7 +88,7 @@ export default function ArabicHome() {
   return (
     <main dir="rtl" className="min-h-screen bg-[#070707] text-white">
       <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+        <div className="mx-auto flex max-w-7xl items-start justify-between px-5 py-4">
           <Link href="/ar" className="flex items-center gap-3">
             <div className="grid h-11 w-11 place-items-center rounded-2xl bg-red-600 text-2xl font-black shadow-lg shadow-red-600/30">
               R
@@ -120,11 +120,11 @@ export default function ArabicHome() {
         </div>
       </header>
 
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute left-[-120px] top-[-120px] h-96 w-96 rounded-full bg-red-600/30 blur-3xl" />
         <div className="absolute bottom-[-180px] right-[-120px] h-96 w-96 rounded-full bg-red-700/20 blur-3xl" />
 
-        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:grid-cols-2 md:items-center lg:py-28">
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-10 lg:grid-cols-2 lg:py-14">
           <div>
             <p className="mb-5 inline-flex rounded-full border border-red-500/40 bg-red-500/10 px-4 py-2 text-sm font-semibold text-red-200">
               أجهزة POS • برنامج مبيعات • دعم فني
@@ -332,7 +332,7 @@ export default function ArabicHome() {
 
 function SectionTitle({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
-    <div className="max-w-3xl">
+    <div className="max-w-3xl lg:-mt-40">
       <p className="text-sm font-black uppercase tracking-[0.25em] text-red-500">{eyebrow}</p>
       <h2 className="mt-3 text-3xl font-black leading-tight md:text-5xl">{title}</h2>
     </div>
