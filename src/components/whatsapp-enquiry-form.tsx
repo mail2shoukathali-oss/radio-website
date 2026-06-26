@@ -41,7 +41,7 @@ export default function WhatsAppEnquiryForm({
             `Requirement: ${message || "-"}`,
           ].join("\n");
 
-    const url = `https://wa.me/971509031312?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/971504417226?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank", "noopener,noreferrer");
   }
 

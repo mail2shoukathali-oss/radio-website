@@ -94,7 +94,7 @@ export default function Image() {
             }}
           >
             <div>Serving Middle East</div>
-            <div>WhatsApp: +971 50 903 1312</div>
+            <div>WhatsApp: +971 50 441 7226</div>
           </div>
         </div>
       </div>

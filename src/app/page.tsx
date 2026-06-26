@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const whatsappLink =
-  "https://wa.me/971509031312?text=Hello%20Radio%20POS%2C%20I%20need%20a%20POS%20system%20for%20my%20business.%20Please%20contact%20me.";
+  "https://wa.me/971504417226?text=Hello%20Radio%20POS%2C%20I%20need%20a%20POS%20system%20for%20my%20business.%20Please%20contact%20me.";
 
 const services = [
   {
@@ -332,7 +332,8 @@ export default function Home() {
           <div className="space-y-3 text-lg">
             <p><strong>Location:</strong> Butina, Sharjah, UAE</p>
             <p><strong>Email:</strong> <a className="text-red-400" href="mailto:mail2radiopos@gmail.com">mail2radiopos@gmail.com</a></p>
-            <p><strong>Phone / WhatsApp:</strong> +971 50 903 1312 / +971 50 441 7226</p>
+            <p><strong>Telephone:</strong> +971 50 903 1312</p>
+            <p><strong>WhatsApp Enquiry:</strong> +971 50 441 7226</p>
           </div>
         </div>
       </section>
