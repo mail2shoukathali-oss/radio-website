@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import WhatsAppEnquiryForm from "@/components/whatsapp-enquiry-form";
 import Link from "next/link";
+import ProductImageShowcase from "@/components/product-image-showcase";
 export const metadata: Metadata = {
   title: "Radio POS | حلول نقاط البيع وبرامج الفوترة",
   description:
@@ -233,6 +234,8 @@ export default function ArabicHome() {
           ))}
         </div>
       </section>
+
+      <ProductImageShowcase language="ar" />
 
       <section id="services" className="border-t border-white/10 py-20">
         <div className="mx-auto max-w-7xl px-5">
