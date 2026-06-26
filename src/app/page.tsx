@@ -100,7 +100,7 @@ export default function Home() {
             <a href="#contact" className="hover:text-white">Contact</a>
           </nav>
 
-          <div className="hidden items-center rounded-full border border-white/10 bg-white/[0.04] p-1 text-sm font-bold md:flex">
+          <div className="flex items-center rounded-full border border-white/10 bg-white/[0.04] p-1 text-xs font-bold sm:text-sm">
             <Link href="/" className="rounded-full bg-red-600 px-3 py-2 text-white">
               EN
             </Link>
@@ -112,7 +112,7 @@ export default function Home() {
           <a
             href={whatsappLink}
             target="_blank"
-            className="rounded-full bg-red-600 px-5 py-3 text-sm font-bold shadow-lg shadow-red-600/30 transition hover:bg-red-500"
+            className="hidden rounded-full bg-red-600 px-5 py-3 text-sm font-bold shadow-lg shadow-red-600/30 transition hover:bg-red-500 sm:inline-flex"
           >
             WhatsApp Us
           </a>
