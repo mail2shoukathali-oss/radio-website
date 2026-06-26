@@ -158,62 +158,13 @@ export default function ArabicHome() {
           </div>
 
           <div className="relative">
-            <div className="absolute -left-8 -top-8 h-40 w-40 rounded-full bg-red-600/30 blur-3xl" />
-            <div className="relative rounded-[2.2rem] border border-white/10 bg-white/[0.04] p-6 shadow-2xl">
-              <div className="mx-auto max-w-xl rounded-[1.8rem] border-[10px] border-zinc-800 bg-zinc-950 p-5 shadow-2xl shadow-red-950/30">
-                <div className="mb-4 flex items-center justify-between border-b border-white/10 pb-4">
-                  <div>
-                    <p className="font-black">Radio POS</p>
-                    <p className="text-xs text-white/45">شاشة بيع سريعة</p>
-                  </div>
-                  <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-bold">
-                    فاتورة جديدة
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-3 gap-3">
-                  {["فواكه", "مشروبات", "مخبوزات", "ألبان", "سناكس", "أصناف"].map((item) => (
-                    <div
-                      key={item}
-                      className="rounded-2xl bg-white p-4 text-center text-sm font-bold text-zinc-900 shadow-inner"
-                    >
-                      {item}
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-5 rounded-2xl bg-white p-4 text-zinc-900">
-                  <div className="mb-3 flex justify-between text-sm">
-                    <span>الإجمالي</span>
-                    <strong>AED --</strong>
-                  </div>
-                  <div className="rounded-xl bg-red-600 py-3 text-center font-black text-white">
-                    فاتورة / دفع
-                  </div>
-                </div>
-              </div>
-
-              <div className="mx-auto h-10 w-32 rounded-b-3xl bg-zinc-800" />
-              <div className="mx-auto h-5 w-52 rounded-t-2xl bg-zinc-900" />
-
-              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
-                <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
-                  <div className="mx-auto mb-3 h-10 w-14 rounded-lg border-2 border-red-500" />
-                  <p className="text-sm font-bold">جهاز لمس POS</p>
-                </div>
-                <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
-                  <div className="mx-auto mb-3 h-10 w-16 rounded-lg border-2 border-red-500">
-                    <div className="mx-auto mt-4 h-1 w-10 bg-red-500" />
-                  </div>
-                  <p className="text-sm font-bold">قارئ باركود</p>
-                </div>
-                <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
-                  <div className="mx-auto mb-3 h-10 w-16 rounded-lg border-2 border-red-500">
-                    <div className="mx-auto -mt-3 h-5 w-10 rounded-t bg-white" />
-                  </div>
-                  <p className="text-sm font-bold">طابعة فواتير</p>
-                </div>
-              </div>
+            <div className="absolute -left-10 -top-10 h-72 w-72 rounded-full bg-red-600/20 blur-3xl" />
+            <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.04] p-4 shadow-2xl shadow-red-950/30">
+              <img
+                src="/images/radio-pos-human-using-pos.png"
+                alt="صاحب متجر يستخدم نظام Radio POS للفوترة"
+                className="aspect-[4/3] w-full rounded-[2rem] object-cover"
+              />
             </div>
           </div>
         </div>
@@ -346,6 +297,16 @@ export default function ArabicHome() {
       <footer className="border-t border-white/10 bg-black px-5 py-8 text-center text-sm text-white/50">
         © Radio POS. جميع الحقوق محفوظة.
       </footer>
+
+      <a
+        href="tel:+971509031312"
+        className="fixed bottom-24 left-5 z-50 flex items-center gap-3 rounded-full border border-white/15 bg-white px-5 py-4 font-black text-black shadow-2xl transition hover:bg-white/90"
+        aria-label="اتصال مباشر برقم Radio POS الأساسي"
+      >
+        <span className="grid h-8 w-8 place-items-center rounded-full bg-red-600 text-white">☎</span>
+        <span className="hidden sm:inline">اتصل الآن</span>
+      </a>
+
 
       <a
         href={whatsappLink}
