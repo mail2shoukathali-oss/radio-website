@@ -116,13 +116,6 @@ export default function ArabicHome() {
             </Link>
           </div>
 
-          <a
-            href={whatsappLink}
-            target="_blank"
-            className="hidden rounded-full bg-red-600 px-5 py-3 text-sm font-bold shadow-lg shadow-red-600/30 transition hover:bg-red-500 sm:inline-flex"
-          >
-            واتساب
-          </a>
         </div>
       </header>
 
