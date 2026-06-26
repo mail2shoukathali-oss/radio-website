@@ -145,21 +145,30 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 shadow-2xl">
-              <div className="rounded-3xl border border-red-500/30 bg-gradient-to-br from-zinc-950 to-zinc-900 p-5">
+            <div className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-red-600/30 blur-3xl" />
+            <div className="relative rounded-[2.2rem] border border-white/10 bg-white/[0.04] p-6 shadow-2xl">
+              <div className="mx-auto max-w-xl rounded-[1.8rem] border-[10px] border-zinc-800 bg-zinc-950 p-5 shadow-2xl shadow-red-950/30">
                 <div className="mb-4 flex items-center justify-between border-b border-white/10 pb-4">
-                  <p className="font-bold">Radio POS</p>
+                  <div>
+                    <p className="font-black">Radio POS</p>
+                    <p className="text-xs text-white/45">Fast billing screen</p>
+                  </div>
                   <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-bold">
                     NEW SALE
                   </span>
                 </div>
+
                 <div className="grid grid-cols-3 gap-3">
                   {["Fruits", "Drinks", "Bakery", "Dairy", "Snacks", "Items"].map((item) => (
-                    <div key={item} className="rounded-2xl bg-white p-4 text-center text-sm font-bold text-zinc-900">
+                    <div
+                      key={item}
+                      className="rounded-2xl bg-white p-4 text-center text-sm font-bold text-zinc-900 shadow-inner"
+                    >
                       {item}
                     </div>
                   ))}
                 </div>
+
                 <div className="mt-5 rounded-2xl bg-white p-4 text-zinc-900">
                   <div className="mb-3 flex justify-between text-sm">
                     <span>Total</span>
@@ -171,10 +180,26 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="mt-5 grid grid-cols-3 gap-4 text-center text-sm">
-                <div className="rounded-2xl border border-white/10 bg-black/50 p-4">Touch Screen POS</div>
-                <div className="rounded-2xl border border-white/10 bg-black/50 p-4">Barcode Scanner</div>
-                <div className="rounded-2xl border border-white/10 bg-black/50 p-4">Receipt Printer</div>
+              <div className="mx-auto h-10 w-32 rounded-b-3xl bg-zinc-800" />
+              <div className="mx-auto h-5 w-52 rounded-t-2xl bg-zinc-900" />
+
+              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
+                  <div className="mx-auto mb-3 h-10 w-14 rounded-lg border-2 border-red-500" />
+                  <p className="text-sm font-bold">Touch Screen POS</p>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
+                  <div className="mx-auto mb-3 h-10 w-16 rounded-lg border-2 border-red-500">
+                    <div className="mx-auto mt-4 h-1 w-10 bg-red-500" />
+                  </div>
+                  <p className="text-sm font-bold">Barcode Scanner</p>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
+                  <div className="mx-auto mb-3 h-10 w-16 rounded-lg border-2 border-red-500">
+                    <div className="mx-auto -mt-3 h-5 w-10 rounded-t bg-white" />
+                  </div>
+                  <p className="text-sm font-bold">Receipt Printer</p>
+                </div>
               </div>
             </div>
           </div>
