@@ -266,20 +266,73 @@ export default function Home() {
       </section>
 
       <section className="px-5 py-20">
-        <div className="mx-auto max-w-5xl rounded-[2rem] border border-red-500/40 bg-gradient-to-br from-red-600 to-red-900 p-8 text-center shadow-2xl shadow-red-600/25 md:p-12">
-          <h2 className="text-3xl font-black md:text-5xl">
-            Need a POS system for your business?
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-white/80">
-            Contact Radio POS for a custom setup and quotation based on your business needs.
-          </p>
-          <a
-            href={whatsappLink}
-            target="_blank"
-            className="mt-8 inline-flex rounded-full bg-white px-8 py-4 font-black text-red-700 transition hover:bg-red-50"
+        <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-[0.9fr_1.1fr]">
+          <div className="rounded-[2rem] border border-red-500/40 bg-gradient-to-br from-red-600 to-red-900 p-8 shadow-2xl shadow-red-600/25 md:p-10">
+            <p className="text-sm font-black uppercase tracking-[0.25em] text-red-100">
+              Free Consultation
+            </p>
+            <h2 className="mt-4 text-3xl font-black md:text-5xl">
+              Need a POS system for your business?
+            </h2>
+            <p className="mt-4 leading-8 text-white/80">
+              Tell us your business type and required setup. Radio POS will suggest
+              the right POS machine, software and support plan for your operation.
+            </p>
+            <a
+              href={whatsappLink}
+              target="_blank"
+              className="mt-8 inline-flex rounded-full bg-white px-8 py-4 font-black text-red-700 transition hover:bg-red-50"
+            >
+              WhatsApp Radio POS
+            </a>
+          </div>
+
+          <form
+            action="https://wa.me/971509031312"
+            className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 md:p-8"
           >
-            WhatsApp Radio POS
-          </a>
+            <h3 className="text-2xl font-black">Quick Enquiry</h3>
+            <p className="mt-2 text-sm text-white/55">
+              Fill these details before contacting us.
+            </p>
+
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              <input
+                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
+                placeholder="Your name"
+                name="name"
+              />
+              <input
+                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
+                placeholder="Business name"
+                name="business"
+              />
+              <input
+                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
+                placeholder="Business type"
+                name="type"
+              />
+              <input
+                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
+                placeholder="Phone number"
+                name="phone"
+              />
+            </div>
+
+            <textarea
+              className="mt-4 min-h-28 w-full rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
+              placeholder="Tell us what you need: POS machine, scanner, printer, software, barcode setup, reports, cloud support..."
+              name="message"
+            />
+
+            <a
+              href={whatsappLink}
+              target="_blank"
+              className="mt-5 inline-flex w-full justify-center rounded-full bg-red-600 px-7 py-4 text-center font-black shadow-lg shadow-red-600/25 transition hover:bg-red-500"
+            >
+              Send Enquiry on WhatsApp
+            </a>
+          </form>
         </div>
       </section>
 
