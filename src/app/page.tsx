@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import WhatsAppEnquiryForm from "@/components/whatsapp-enquiry-form";
 import Link from "next/link";
+export const metadata: Metadata = {
+  title: "Radio POS | Complete POS Solutions for Your Business",
+  description:
+    "Radio POS provides POS machines, billing software, barcode setup, inventory control, cloud reports, installation, training and support for retail, food and service businesses across the Middle East.",
+};
+
 const whatsappLink =
   "https://wa.me/971509031312?text=Hello%20Radio%20POS%2C%20I%20need%20a%20POS%20system%20for%20my%20business.%20Please%20contact%20me.";
 
