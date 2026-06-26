@@ -218,6 +218,22 @@ export default function ArabicHome() {
         </div>
       </section>
 
+      <section className="border-t border-white/10 bg-black py-10">
+        <div className="mx-auto grid max-w-7xl gap-4 px-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            ["نخدم الشرق الأوسط", "الإمارات، دول الخليج، وأسواق الشرق الأوسط"],
+            ["تركيب في الموقع", "تركيب النظام وتدريب الموظفين في موقع العمل"],
+            ["دعم الباركود", "إعداد الأصناف، الباركود، وإدارة المنتجات"],
+            ["دعم ما بعد البيع", "صيانة، تحديثات، ومساعدة فنية عند الحاجة"],
+          ].map(([title, text]) => (
+            <div key={title} className="rounded-3xl border border-white/10 bg-white/[0.04] p-5">
+              <p className="text-lg font-black text-red-400">{title}</p>
+              <p className="mt-2 text-sm leading-7 text-white/60">{text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section id="services" className="border-t border-white/10 py-20">
         <div className="mx-auto max-w-7xl px-5">
           <SectionTitle eyebrow="خدماتنا" title="أجهزة وبرامج وإعداد كامل لنقاط البيع" />

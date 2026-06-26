@@ -217,6 +217,22 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-t border-white/10 bg-black py-10">
+        <div className="mx-auto grid max-w-7xl gap-4 px-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            ["Serving Middle East", "UAE, GCC and Middle East businesses"],
+            ["On-Site Setup", "Installation and staff training at your location"],
+            ["Barcode Support", "Item setup, barcode scanning and product management"],
+            ["After-Sales Support", "Maintenance, updates and technical assistance"],
+          ].map(([title, text]) => (
+            <div key={title} className="rounded-3xl border border-white/10 bg-white/[0.04] p-5">
+              <p className="text-lg font-black text-red-400">{title}</p>
+              <p className="mt-2 text-sm leading-6 text-white/60">{text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section id="services" className="border-t border-white/10 py-20">
         <div className="mx-auto max-w-7xl px-5">
           <SectionTitle eyebrow="What We Provide" title="POS hardware, software and complete setup" />
