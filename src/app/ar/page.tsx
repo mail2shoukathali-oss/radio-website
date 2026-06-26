@@ -1,86 +1,86 @@
 import Link from "next/link";
 const whatsappLink =
-  "https://wa.me/971509031312?text=Hello%20Radio%20POS%2C%20I%20need%20a%20POS%20system%20for%20my%20business.%20Please%20contact%20me.";
+  "https://wa.me/971509031312?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20Radio%20POS%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%86%D8%B8%D8%A7%D9%85%20%D9%86%D9%82%D8%A7%D8%B7%20%D8%A8%D9%8A%D8%B9%20%D9%84%D8%B9%D9%85%D9%84%D9%8A.%20%D9%8A%D8%B1%D8%AC%D9%89%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%8A.";
 
 const services = [
   {
-    title: "POS Hardware & Setup",
-    text: "Touch screen POS machines, barcode scanners, receipt printers, cash drawers and full counter setup.",
+    title: "أجهزة ونظام نقاط البيع",
+    text: "أجهزة لمس، قارئ باركود، طابعة فواتير، درج كاش، وتجهيز كامل لكاونتر البيع.",
   },
   {
-    title: "Billing & Business Software",
-    text: "Easy billing, product management, customer records, sales tracking and daily business reports.",
+    title: "برنامج الفوترة وإدارة الأعمال",
+    text: "فواتير سهلة، إدارة المنتجات، بيانات العملاء، متابعة المبيعات، وتقارير يومية للأعمال.",
   },
   {
-    title: "Inventory & Barcode Management",
-    text: "Barcode setup, item preloading, stock control, low-stock tracking and category-wise product management.",
+    title: "إدارة المخزون والباركود",
+    text: "إعداد الباركود، إدخال الأصناف، متابعة المخزون، تنبيهات النقص، وتنظيم المنتجات حسب الأقسام.",
   },
   {
-    title: "Cloud & Reporting Support",
-    text: "Cloud access, full business reports, staff control, branch monitoring and remote business visibility.",
+    title: "الدعم السحابي والتقارير",
+    text: "وصول سحابي، تقارير كاملة، تحكم بالموظفين، متابعة الفروع، ورؤية واضحة للأعمال عن بعد.",
   },
   {
-    title: "Installation & Training",
-    text: "On-site installation, software setup, staff training and daily-use guidance.",
+    title: "التركيب والتدريب",
+    text: "تركيب في الموقع، إعداد البرنامج، تدريب الموظفين، وشرح طريقة الاستخدام اليومي.",
   },
   {
-    title: "Maintenance & After-Sales Support",
-    text: "System maintenance, troubleshooting, software updates and ongoing support.",
+    title: "الصيانة والدعم بعد البيع",
+    text: "صيانة النظام، حل المشاكل، تحديثات البرنامج، ودعم مستمر عند الحاجة.",
   },
 ];
 
 const industries = [
-  "Groceries",
-  "Supermarkets",
-  "Mini marts",
-  "Restaurants",
-  "Cafes",
-  "Bakeries",
-  "Cafeterias",
-  "Pharmacies",
-  "Cosmetic shops",
-  "Mobile shops",
-  "Electronics shops",
-  "Gift shops",
-  "Stationery shops",
-  "Garments & textiles",
-  "Hardware shops",
-  "Spare parts shops",
-  "Pet shops",
-  "Laundry shops",
-  "Salons",
-  "General trading outlets",
+  "البقالات",
+  "السوبرماركت",
+  "الميني مارت",
+  "المطاعم",
+  "الكافيهات",
+  "المخابز",
+  "الكافتيريات",
+  "الصيدليات",
+  "محلات التجميل",
+  "محلات الموبايل",
+  "محلات الإلكترونيات",
+  "محلات الهدايا",
+  "المكتبات والقرطاسية",
+  "محلات الملابس والأقمشة",
+  "محلات الأدوات",
+  "محلات قطع الغيار",
+  "محلات الحيوانات الأليفة",
+  "المغاسل",
+  "الصالونات",
+  "منافذ التجارة العامة",
 ];
 
 const whyChoose = [
-  "Fast billing",
-  "Easy-to-use software",
-  "Reliable POS hardware",
-  "Barcode and item setup",
-  "Inventory control",
-  "Staff access control",
-  "Cloud reporting options",
-  "On-site installation",
-  "Staff training",
-  "After-sales support",
-  "Custom setup for each business",
+  "فوترة سريعة",
+  "برنامج سهل الاستخدام",
+  "أجهزة POS موثوقة",
+  "إعداد الأصناف والباركود",
+  "إدارة المخزون",
+  "تحكم بصلاحيات الموظفين",
+  "تقارير وخيارات سحابية",
+  "تركيب في الموقع",
+  "تدريب الموظفين",
+  "دعم ما بعد البيع",
+  "إعداد مخصص حسب نوع النشاط",
 ];
 
 const steps = [
-  ["Consultation", "We understand your business type and requirements."],
-  ["System Recommendation", "We suggest the right POS machine, software and setup."],
-  ["Installation", "We install the POS hardware and software at your location."],
-  ["Item & Barcode Setup", "We preload items, barcodes, categories and basic business data."],
-  ["Training", "We train your staff to use the system confidently."],
-  ["Support", "We provide maintenance and after-sales support."],
+  ["الاستشارة", "نفهم نوع نشاطك واحتياجاتك الأساسية."],
+  ["اقتراح النظام المناسب", "نقترح جهاز POS والبرنامج والإعداد المناسب لعملك."],
+  ["التركيب", "نقوم بتركيب الأجهزة والبرنامج في موقعك."],
+  ["إعداد الأصناف والباركود", "نقوم بإدخال الأصناف، الباركود، الأقسام والبيانات الأساسية."],
+  ["التدريب", "نقوم بتدريب الموظفين على استخدام النظام بثقة."],
+  ["الدعم", "نوفر الصيانة والدعم الفني بعد البيع."],
 ];
 
-export default function Home() {
+export default function ArabicHome() {
   return (
-    <main className="min-h-screen bg-[#070707] text-white">
+    <main dir="rtl" className="min-h-screen bg-[#070707] text-white">
       <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/ar" className="flex items-center gap-3">
             <div className="grid h-11 w-11 place-items-center rounded-2xl bg-red-600 text-2xl font-black shadow-lg shadow-red-600/30">
               R
             </div>
@@ -88,22 +88,22 @@ export default function Home() {
               <p className="text-xl font-black tracking-tight">
                 Radio <span className="text-red-500">POS</span>
               </p>
-              <p className="text-xs text-white/55">Reliable POS Solutions</p>
+              <p className="text-xs text-white/55">حلول نقاط بيع موثوقة</p>
             </div>
           </Link>
 
           <nav className="hidden items-center gap-7 text-sm text-white/70 md:flex">
-            <a href="#services" className="hover:text-white">Services</a>
-            <a href="#industries" className="hover:text-white">Industries</a>
-            <a href="#why" className="hover:text-white">Why Us</a>
-            <a href="#contact" className="hover:text-white">Contact</a>
+            <a href="#services" className="hover:text-white">الخدمات</a>
+            <a href="#industries" className="hover:text-white">الأنشطة</a>
+            <a href="#why" className="hover:text-white">لماذا نحن</a>
+            <a href="#contact" className="hover:text-white">تواصل معنا</a>
           </nav>
 
           <div className="hidden items-center rounded-full border border-white/10 bg-white/[0.04] p-1 text-sm font-bold md:flex">
-            <Link href="/" className="rounded-full bg-red-600 px-3 py-2 text-white">
+            <Link href="/" className="rounded-full px-3 py-2 text-white/70 hover:text-white">
               EN
             </Link>
-            <Link href="/ar" className="rounded-full px-3 py-2 text-white/70 hover:text-white">
+            <Link href="/ar" className="rounded-full bg-red-600 px-3 py-2 text-white">
               عربي
             </Link>
           </div>
@@ -113,28 +113,29 @@ export default function Home() {
             target="_blank"
             className="rounded-full bg-red-600 px-5 py-3 text-sm font-bold shadow-lg shadow-red-600/30 transition hover:bg-red-500"
           >
-            WhatsApp Us
+            واتساب
           </a>
         </div>
       </header>
 
       <section className="relative overflow-hidden">
-        <div className="absolute right-[-120px] top-[-120px] h-96 w-96 rounded-full bg-red-600/30 blur-3xl" />
-        <div className="absolute bottom-[-180px] left-[-120px] h-96 w-96 rounded-full bg-red-700/20 blur-3xl" />
+        <div className="absolute left-[-120px] top-[-120px] h-96 w-96 rounded-full bg-red-600/30 blur-3xl" />
+        <div className="absolute bottom-[-180px] right-[-120px] h-96 w-96 rounded-full bg-red-700/20 blur-3xl" />
 
         <div className="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:grid-cols-2 md:items-center lg:py-28">
           <div>
             <p className="mb-5 inline-flex rounded-full border border-red-500/40 bg-red-500/10 px-4 py-2 text-sm font-semibold text-red-200">
-              POS Machines • Software • Support
+              أجهزة POS • برنامج مبيعات • دعم فني
             </p>
             <h1 className="text-4xl font-black leading-tight md:text-6xl">
-              Complete POS Solutions for{" "}
-              <span className="text-red-500">Your Business</span>
+              حلول نقاط بيع متكاملة{" "}
+              <span className="text-red-500">لجميع الأعمال</span>
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-              POS machines, billing software, barcode setup, inventory control,
-              staff management, cloud reports, installation, training and support
-              for retail, food and service businesses.
+            <p className="mt-6 max-w-2xl text-lg leading-9 text-white/70">
+              أجهزة نقاط البيع، برامج الفوترة، إعداد الباركود، إدارة المخزون،
+              التحكم بالموظفين، التقارير السحابية، التركيب، التدريب والدعم
+              للمحلات التجارية، المطاعم، الكافيهات، الصيدليات، الصالونات وجميع
+              الأنشطة المشابهة.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -143,33 +144,33 @@ export default function Home() {
                 target="_blank"
                 className="rounded-full bg-red-600 px-7 py-4 text-center font-bold shadow-xl shadow-red-600/30 transition hover:bg-red-500"
               >
-                Get Quote on WhatsApp
+                اطلب عرض عبر واتساب
               </a>
               <a
                 href="#contact"
                 className="rounded-full border border-white/20 px-7 py-4 text-center font-bold text-white/90 transition hover:border-red-400 hover:text-white"
               >
-                Book Free Consultation
+                احجز استشارة مجانية
               </a>
             </div>
           </div>
 
           <div className="relative">
-            <div className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-red-600/30 blur-3xl" />
+            <div className="absolute -left-8 -top-8 h-40 w-40 rounded-full bg-red-600/30 blur-3xl" />
             <div className="relative rounded-[2.2rem] border border-white/10 bg-white/[0.04] p-6 shadow-2xl">
               <div className="mx-auto max-w-xl rounded-[1.8rem] border-[10px] border-zinc-800 bg-zinc-950 p-5 shadow-2xl shadow-red-950/30">
                 <div className="mb-4 flex items-center justify-between border-b border-white/10 pb-4">
                   <div>
                     <p className="font-black">Radio POS</p>
-                    <p className="text-xs text-white/45">Fast billing screen</p>
+                    <p className="text-xs text-white/45">شاشة بيع سريعة</p>
                   </div>
                   <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-bold">
-                    NEW SALE
+                    فاتورة جديدة
                   </span>
                 </div>
 
                 <div className="grid grid-cols-3 gap-3">
-                  {["Fruits", "Drinks", "Bakery", "Dairy", "Snacks", "Items"].map((item) => (
+                  {["فواكه", "مشروبات", "مخبوزات", "ألبان", "سناكس", "أصناف"].map((item) => (
                     <div
                       key={item}
                       className="rounded-2xl bg-white p-4 text-center text-sm font-bold text-zinc-900 shadow-inner"
@@ -181,11 +182,11 @@ export default function Home() {
 
                 <div className="mt-5 rounded-2xl bg-white p-4 text-zinc-900">
                   <div className="mb-3 flex justify-between text-sm">
-                    <span>Total</span>
+                    <span>الإجمالي</span>
                     <strong>AED --</strong>
                   </div>
                   <div className="rounded-xl bg-red-600 py-3 text-center font-black text-white">
-                    BILL / PAY
+                    فاتورة / دفع
                   </div>
                 </div>
               </div>
@@ -196,19 +197,19 @@ export default function Home() {
               <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
                 <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
                   <div className="mx-auto mb-3 h-10 w-14 rounded-lg border-2 border-red-500" />
-                  <p className="text-sm font-bold">Touch Screen POS</p>
+                  <p className="text-sm font-bold">جهاز لمس POS</p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
                   <div className="mx-auto mb-3 h-10 w-16 rounded-lg border-2 border-red-500">
                     <div className="mx-auto mt-4 h-1 w-10 bg-red-500" />
                   </div>
-                  <p className="text-sm font-bold">Barcode Scanner</p>
+                  <p className="text-sm font-bold">قارئ باركود</p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-black/60 p-4 text-center">
                   <div className="mx-auto mb-3 h-10 w-16 rounded-lg border-2 border-red-500">
                     <div className="mx-auto -mt-3 h-5 w-10 rounded-t bg-white" />
                   </div>
-                  <p className="text-sm font-bold">Receipt Printer</p>
+                  <p className="text-sm font-bold">طابعة فواتير</p>
                 </div>
               </div>
             </div>
@@ -218,7 +219,7 @@ export default function Home() {
 
       <section id="services" className="border-t border-white/10 py-20">
         <div className="mx-auto max-w-7xl px-5">
-          <SectionTitle eyebrow="What We Provide" title="POS hardware, software and complete setup" />
+          <SectionTitle eyebrow="خدماتنا" title="أجهزة وبرامج وإعداد كامل لنقاط البيع" />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service, index) => (
               <div key={service.title} className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 transition hover:border-red-500/50">
@@ -226,7 +227,7 @@ export default function Home() {
                   {index + 1}
                 </div>
                 <h3 className="text-xl font-black">{service.title}</h3>
-                <p className="mt-3 leading-7 text-white/65">{service.text}</p>
+                <p className="mt-3 leading-8 text-white/65">{service.text}</p>
               </div>
             ))}
           </div>
@@ -235,7 +236,7 @@ export default function Home() {
 
       <section id="industries" className="bg-zinc-950 py-20">
         <div className="mx-auto max-w-7xl px-5">
-          <SectionTitle eyebrow="Industries" title="Suitable for many business types" />
+          <SectionTitle eyebrow="الأنشطة المناسبة" title="مناسب للعديد من أنواع الأعمال" />
           <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
             {industries.map((industry) => (
               <div key={industry} className="rounded-2xl border border-white/10 bg-black px-4 py-4 text-center text-sm font-semibold text-white/80">
@@ -248,7 +249,7 @@ export default function Home() {
 
       <section id="why" className="py-20">
         <div className="mx-auto max-w-7xl px-5">
-          <SectionTitle eyebrow="Why Choose Radio POS" title="Built for daily business operations" />
+          <SectionTitle eyebrow="لماذا Radio POS" title="مصمم للأعمال اليومية" />
           <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {whyChoose.map((point) => (
               <div key={point} className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-4">
@@ -262,13 +263,13 @@ export default function Home() {
 
       <section className="bg-zinc-950 py-20">
         <div className="mx-auto max-w-7xl px-5">
-          <SectionTitle eyebrow="How We Work" title="From consultation to support" />
+          <SectionTitle eyebrow="طريقة العمل" title="من الاستشارة إلى الدعم" />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {steps.map(([title, text], index) => (
               <div key={title} className="rounded-3xl border border-white/10 bg-black p-6">
                 <div className="mb-4 text-4xl font-black text-red-500">0{index + 1}</div>
                 <h3 className="text-xl font-black">{title}</h3>
-                <p className="mt-3 leading-7 text-white/65">{text}</p>
+                <p className="mt-3 leading-8 text-white/65">{text}</p>
               </div>
             ))}
           </div>
@@ -279,21 +280,21 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-[0.9fr_1.1fr]">
           <div className="rounded-[2rem] border border-red-500/40 bg-gradient-to-br from-red-600 to-red-900 p-8 shadow-2xl shadow-red-600/25 md:p-10">
             <p className="text-sm font-black uppercase tracking-[0.25em] text-red-100">
-              Free Consultation
+              استشارة مجانية
             </p>
             <h2 className="mt-4 text-3xl font-black md:text-5xl">
-              Need a POS system for your business?
+              هل تحتاج نظام POS لعملك؟
             </h2>
             <p className="mt-4 leading-8 text-white/80">
-              Tell us your business type and required setup. Radio POS will suggest
-              the right POS machine, software and support plan for your operation.
+              أخبرنا بنوع نشاطك ومتطلباتك، وسنقترح لك جهاز POS والبرنامج والإعداد
+              المناسب لعملك.
             </p>
             <a
               href={whatsappLink}
               target="_blank"
               className="mt-8 inline-flex rounded-full bg-white px-8 py-4 font-black text-red-700 transition hover:bg-red-50"
             >
-              WhatsApp Radio POS
+              تواصل عبر واتساب
             </a>
           </div>
 
@@ -301,37 +302,21 @@ export default function Home() {
             action="https://wa.me/971509031312"
             className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 md:p-8"
           >
-            <h3 className="text-2xl font-black">Quick Enquiry</h3>
+            <h3 className="text-2xl font-black">استفسار سريع</h3>
             <p className="mt-2 text-sm text-white/55">
-              Fill these details before contacting us.
+              املأ هذه البيانات قبل التواصل معنا.
             </p>
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Your name"
-                name="name"
-              />
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Business name"
-                name="business"
-              />
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Business type"
-                name="type"
-              />
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Phone number"
-                name="phone"
-              />
+              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="الاسم" name="name" />
+              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="اسم النشاط" name="business" />
+              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="نوع النشاط" name="type" />
+              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="رقم الهاتف" name="phone" />
             </div>
 
             <textarea
               className="mt-4 min-h-28 w-full rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-              placeholder="Tell us what you need: POS machine, scanner, printer, software, barcode setup, reports, cloud support..."
+              placeholder="اكتب ما تحتاجه: جهاز POS، قارئ باركود، طابعة، برنامج، إعداد باركود، تقارير، دعم سحابي..."
               name="message"
             />
 
@@ -340,7 +325,7 @@ export default function Home() {
               target="_blank"
               className="mt-5 inline-flex w-full justify-center rounded-full bg-red-600 px-7 py-4 text-center font-black shadow-lg shadow-red-600/25 transition hover:bg-red-500"
             >
-              Send Enquiry on WhatsApp
+              إرسال الاستفسار عبر واتساب
             </a>
           </form>
         </div>
@@ -349,28 +334,33 @@ export default function Home() {
       <section id="contact" className="border-t border-white/10 bg-black py-16">
         <div className="mx-auto grid max-w-7xl gap-8 px-5 md:grid-cols-2">
           <div>
-            <h2 className="text-3xl font-black">Contact Radio POS</h2>
+            <h2 className="text-3xl font-black">تواصل مع Radio POS</h2>
             <p className="mt-4 text-white/60">
-              Complete POS solutions for retail, food and service businesses.
+              حلول نقاط بيع متكاملة للمحلات، المطاعم، الخدمات، والأنشطة التجارية.
             </p>
           </div>
           <div className="space-y-3 text-lg">
-            <p><strong>Location:</strong> Butina, Sharjah, UAE</p>
-            <p><strong>Email:</strong> <a className="text-red-400" href="mailto:mail2radiopos@gmail.com">mail2radiopos@gmail.com</a></p>
-            <p><strong>Phone / WhatsApp:</strong> +971 50 903 1312 / +971 50 441 7226</p>
+            <p><strong>الموقع:</strong> بوطينة، الشارقة، الإمارات</p>
+            <p><strong>البريد الإلكتروني:</strong> <a className="text-red-400" href="mailto:mail2radiopos@gmail.com">mail2radiopos@gmail.com</a></p>
+            <p>
+              <strong>الهاتف / واتساب:</strong>{" "}
+              <span dir="ltr" className="inline-block">+971 50 903 1312</span>
+              {" / "}
+              <span dir="ltr" className="inline-block">+971 50 441 7226</span>
+            </p>
           </div>
         </div>
       </section>
 
       <footer className="border-t border-white/10 bg-black px-5 py-8 text-center text-sm text-white/50">
-        © Radio POS. All rights reserved.
+        © Radio POS. جميع الحقوق محفوظة.
       </footer>
 
       <a
         href={whatsappLink}
         target="_blank"
         aria-label="Contact Radio POS on WhatsApp"
-        className="fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full bg-green-500 px-5 py-4 font-black text-white shadow-2xl shadow-green-500/30 transition hover:bg-green-400"
+        className="fixed bottom-5 left-5 z-50 flex items-center gap-3 rounded-full bg-green-500 px-5 py-4 font-black text-white shadow-2xl shadow-green-500/30 transition hover:bg-green-400"
       >
         <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-green-600">
           <svg
@@ -382,7 +372,7 @@ export default function Home() {
             <path d="M16.01 3.2c-7.05 0-12.78 5.73-12.78 12.78 0 2.25.59 4.45 1.72 6.39L3.2 28.8l6.58-1.73a12.7 12.7 0 0 0 6.23 1.59c7.05 0 12.78-5.73 12.78-12.78S23.06 3.2 16.01 3.2Zm0 23.28c-1.93 0-3.82-.52-5.47-1.5l-.39-.23-3.9 1.02 1.04-3.8-.25-.4a10.5 10.5 0 0 1-1.62-5.59c0-5.85 4.76-10.6 10.6-10.6 5.85 0 10.6 4.75 10.6 10.6s-4.75 10.5-10.6 10.5Zm5.82-7.93c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.52-.16-.74.16-.21.32-.85 1.05-1.04 1.26-.19.21-.38.24-.7.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.15-.15.32-.38.49-.57.16-.19.21-.32.32-.54.11-.22.05-.41-.03-.57-.08-.16-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.32-1.14 1.11-1.14 2.71s1.17 3.15 1.33 3.37c.16.22 2.3 3.52 5.58 4.93.78.34 1.39.54 1.87.69.79.25 1.5.21 2.06.13.63-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.14-.29-.22-.61-.38Z" />
           </svg>
         </span>
-        <span className="hidden sm:inline">WhatsApp Now</span>
+        <span className="hidden sm:inline">واتساب الآن</span>
       </a>
     </main>
   );
