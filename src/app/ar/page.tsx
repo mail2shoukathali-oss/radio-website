@@ -1,3 +1,4 @@
+import WhatsAppEnquiryForm from "@/components/whatsapp-enquiry-form";
 import Link from "next/link";
 const whatsappLink =
   "https://wa.me/971509031312?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20Radio%20POS%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%86%D8%B8%D8%A7%D9%85%20%D9%86%D9%82%D8%A7%D8%B7%20%D8%A8%D9%8A%D8%B9%20%D9%84%D8%B9%D9%85%D9%84%D9%8A.%20%D9%8A%D8%B1%D8%AC%D9%89%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%8A.";
@@ -298,36 +299,7 @@ export default function ArabicHome() {
             </a>
           </div>
 
-          <form
-            action="https://wa.me/971509031312"
-            className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 md:p-8"
-          >
-            <h3 className="text-2xl font-black">استفسار سريع</h3>
-            <p className="mt-2 text-sm text-white/55">
-              املأ هذه البيانات قبل التواصل معنا.
-            </p>
-
-            <div className="mt-6 grid gap-4 sm:grid-cols-2">
-              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="الاسم" name="name" />
-              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="اسم النشاط" name="business" />
-              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="نوع النشاط" name="type" />
-              <input className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4" placeholder="رقم الهاتف" name="phone" />
-            </div>
-
-            <textarea
-              className="mt-4 min-h-28 w-full rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-              placeholder="اكتب ما تحتاجه: جهاز POS، قارئ باركود، طابعة، برنامج، إعداد باركود، تقارير، دعم سحابي..."
-              name="message"
-            />
-
-            <a
-              href={whatsappLink}
-              target="_blank"
-              className="mt-5 inline-flex w-full justify-center rounded-full bg-red-600 px-7 py-4 text-center font-black shadow-lg shadow-red-600/25 transition hover:bg-red-500"
-            >
-              إرسال الاستفسار عبر واتساب
-            </a>
-          </form>
+          <WhatsAppEnquiryForm language="ar" />
         </div>
       </section>
 

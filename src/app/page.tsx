@@ -1,3 +1,4 @@
+import WhatsAppEnquiryForm from "@/components/whatsapp-enquiry-form";
 import Link from "next/link";
 const whatsappLink =
   "https://wa.me/971509031312?text=Hello%20Radio%20POS%2C%20I%20need%20a%20POS%20system%20for%20my%20business.%20Please%20contact%20me.";
@@ -297,52 +298,7 @@ export default function Home() {
             </a>
           </div>
 
-          <form
-            action="https://wa.me/971509031312"
-            className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 md:p-8"
-          >
-            <h3 className="text-2xl font-black">Quick Enquiry</h3>
-            <p className="mt-2 text-sm text-white/55">
-              Fill these details before contacting us.
-            </p>
-
-            <div className="mt-6 grid gap-4 sm:grid-cols-2">
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Your name"
-                name="name"
-              />
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Business name"
-                name="business"
-              />
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Business type"
-                name="type"
-              />
-              <input
-                className="rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-                placeholder="Phone number"
-                name="phone"
-              />
-            </div>
-
-            <textarea
-              className="mt-4 min-h-28 w-full rounded-2xl border border-white/10 bg-black px-4 py-4 outline-none ring-red-500/40 placeholder:text-white/35 focus:ring-4"
-              placeholder="Tell us what you need: POS machine, scanner, printer, software, barcode setup, reports, cloud support..."
-              name="message"
-            />
-
-            <a
-              href={whatsappLink}
-              target="_blank"
-              className="mt-5 inline-flex w-full justify-center rounded-full bg-red-600 px-7 py-4 text-center font-black shadow-lg shadow-red-600/25 transition hover:bg-red-500"
-            >
-              Send Enquiry on WhatsApp
-            </a>
-          </form>
+          <WhatsAppEnquiryForm language="en" />
         </div>
       </section>
 
