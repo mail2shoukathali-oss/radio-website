@@ -277,6 +277,18 @@ export default function Home() {
       <footer className="border-t border-white/10 bg-black px-5 py-8 text-center text-sm text-white/50">
         © Radio POS. All rights reserved.
       </footer>
+
+      <a
+        href={whatsappLink}
+        target="_blank"
+        aria-label="Contact Radio POS on WhatsApp"
+        className="fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full bg-green-500 px-5 py-4 font-black text-white shadow-2xl shadow-green-500/30 transition hover:bg-green-400"
+      >
+        <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-lg text-green-600">
+          ☎
+        </span>
+        <span className="hidden sm:inline">WhatsApp Now</span>
+      </a>
     </main>
   );
 }
